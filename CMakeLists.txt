@@ -6,7 +6,7 @@ project(detours LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
+set(SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
 
 set(SOURCE_FILES 
     ${SOURCE_DIR}/creatwth.cpp
